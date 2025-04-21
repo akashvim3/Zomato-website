@@ -2,7 +2,7 @@
 
 A responsive, feature-rich clone of the Zomato food delivery website landing page built with HTML, CSS, and JavaScript.
 
-![Zomato Clone Preview](assets/images/preview.png)
+![Zomato Clone Preview](https://akashvim3.github.io/Zomato-website/)
 
 ## 📋 Overview
 
