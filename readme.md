@@ -1,123 +1,125 @@
-# Zomato Clone
+# Zomato Clone - Professional Food Delivery Website
 
-A responsive, feature-rich clone of the Zomato food delivery website landing page built with HTML, CSS, and JavaScript.
+A professional, responsive food delivery website clone built with modern web technologies. This project demonstrates best practices in frontend development including accessibility, SEO, and responsive design.
 
-![Zomato Clone Preview](assets/images/preview.png)
+![Zomato Clone Preview](https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80)
 
-## 📋 Overview
+## 🌟 Features
 
-This project is a front-end implementation of Zomato's landing page, focusing on responsive design and user interface elements. It replicates key features and sections of the Zomato website, providing a similar look and feel to the original platform.
+- **Modern UI/UX** - Clean, professional design inspired by Zomato
+- **Fully Responsive** - Works seamlessly on desktop, tablet, and mobile devices
+- **Accessibility First** - WCAG compliant with proper ARIA labels and keyboard navigation
+- **SEO Optimized** - Meta tags, structured data, and semantic HTML
+- **Interactive Components**:
+  - Login/Signup Modals
+  - Restaurant Quick View
+  - Search with Autocomplete
+  - Toast Notifications
+  - Horizontal Scroll Navigation
+  - Accordion Sections
+- **Lazy Loading** - Optimized image loading for better performance
+- **Smooth Animations** - CSS transitions and keyframe animations
 
-## ✨ Features
+## 🚀 Technologies Used
 
-- **Responsive Design**: Fully optimized for all screen sizes (mobile, tablet, desktop)
-- **Interactive Elements**: Dynamic navigation, search functionality, and accordion sections
-- **Image Lazy Loading**: Optimized performance with lazy-loaded images
-- **Modern UI Components**: 
-  - Hero section with search functionality
-  - Food category showcase
-  - Featured restaurants with ratings and details
-  - Collections and curated lists
-  - Popular localities navigator
-  - User testimonials
-  - Mobile app download section
-  - Interactive accordions for additional information
+- **HTML5** - Semantic markup with ARIA accessibility features
+- **CSS3** - Modern CSS with variables, Flexbox, Grid, and animations
+- **JavaScript (ES6+)** - Modular, class-based JavaScript
+- **Font Awesome 6** - Icon library
+- **Google Fonts** - Poppins font family
+- **Unsplash Images** - High-quality stock photography
 
-## 🛠️ Technologies Used
-
-- **HTML5**: Semantic markup structure
-- **CSS3**: Custom styling with responsive design principles
-- **JavaScript**: Interactive elements and functionality
-- **Font Awesome**: Icon library for UI elements
-- **Feather Icons**: Lightweight icon set for modern interface
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- A modern web browser
-- Basic understanding of HTML, CSS, and JavaScript (for development)
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/akashvim3/zomato-website.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd zomato website
-   ```
-
-3. Open `index.html` in your preferred browser:
-   ```bash
-   open index.html   # For macOS
-   # OR
-   start index.html  # For Windows
-   ```
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
 zomato-website/
-├── index.html                # Main HTML file
+├── index.html
 ├── assets/
 │   ├── css/
-│   │   └── style.css         # Main stylesheet
+│   │   └── style.css
 │   ├── js/
-│   │   └── main.js           # JavaScript functionality
-│   └── images/               # Image resources
-│       ├── logo.png
-│       ├── logo-small.png
+│   │   └── main.js
+│   └── images/
 │       ├── favicon.ico
-│       ├── restaurant1.jpg
-│       └── ...
-└── README.md                 # Project documentation
+│       ├── logo.png
+│       ├── logo-white.png
+│       ├── logo-small.png
+│       ├── india.png
+│       ├── app-store.png
+│       └── google-play.png
+├── .qodo/
+├── README.md
+└── LICENSE
 ```
 
-## 📱 Responsive Behavior
+## 🛠️ Installation
 
-The website is designed to be fully responsive:
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/zomato-website.git
+```
 
-- **Mobile**: Optimized navigation with hamburger menu
-- **Tablet**: Adjusted grid layouts for medium screens
-- **Desktop**: Full-featured experience with all content sections
+2. Navigate to the project directory:
+```bash
+cd zomato-website
+```
 
-## 🔍 Key Components
+3. Open `index.html` in your browser, or use a local server:
+```bash
+# Using Python
+python -m http.server 8000
 
-- **Header Navigation**: Responsive navbar with mobile menu toggle
-- **Hero Section**: Main search functionality with location selection
-- **Order Options**: Three main service categories (Order Online, Dining, Nightlife)
-- **Food Categories**: Popular cuisine categories with images
-- **Collections**: Curated lists of restaurants with overlay information
-- **Featured Restaurants**: Restaurant cards with ratings, cuisines, and offers
-- **Popular Localities**: Location-based navigation for finding restaurants
-- **User Testimonials**: Customer reviews and feedback
-- **App Download**: Mobile app promotion with download options
-- **Explore Options**: Expandable accordions with nearby options
-- **Footer**: Comprehensive site links, social media, and legal information
+# Using Node.js (with http-server)
+npx http-server
 
-## 🤝 Contributing
+# Using PHP
+php -S localhost:8000
+```
 
-Contributions are welcome! To contribute:
+## 📱 Browser Support
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Opera (latest)
 
-## 📜 License
+## 🎨 Customization
+
+### Changing Colors
+
+Edit the CSS variables in `assets/css/style.css`:
+
+```css
+:root {
+    --color-primary: #ef4f5f;      /* Main brand color */
+    --color-success: #267e3e;      /* Success/Rating color */
+    --color-info: #256fef;         /* Info/Discount color */
+    /* ... more variables */
+}
+```
+
+### Adding New Sections
+
+1. Add HTML structure in `index.html`
+2. Add corresponding styles in `assets/css/style.css`
+3. Add JavaScript functionality in `assets/js/main.js`
+
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ⚠️ Disclaimer
+## 🙏 Acknowledgments
 
-This project is created for educational purposes only. It is not affiliated with, authorized, maintained, sponsored, or endorsed by Zomato or any of its affiliates or subsidiaries. This is a non-commercial project and should be used for learning purposes only.
+- [Zomato](https://www.zomato.com) - For design inspiration
+- [Unsplash](https://unsplash.com) - For high-quality images
+- [Font Awesome](https://fontawesome.com) - For icons
+- [Google Fonts](https://fonts.google.com) - For typography
 
-## 🙏 Acknowledgements
+## 📧 Contact
 
-- [Zomato](https://www.zomato.com/) for design inspiration
-- [Font Awesome](https://fontawesome.com/) for icons
-- [Feather Icons](https://feathericons.com/) for lightweight UI icons
+For questions or suggestions, please open an issue on GitHub.
+
+---
+
+**Note**: This is a clone for educational purposes only. All trademarks and registered trademarks are the property of their respective owners.
