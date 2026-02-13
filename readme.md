@@ -2,7 +2,11 @@
 
 A professional, responsive food delivery website clone built with modern web technologies. This project demonstrates best practices in frontend development including accessibility, SEO, and responsive design.
 
+<<<<<<< HEAD
 ![Zomato Clone Preview](https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80)
+=======
+![Zomato Clone Preview](https://akashvim3.github.io/Zomato-website/)
+>>>>>>> 1a127031d47ef6473f959b115c7c4db4d95fe126
 
 ## 🌟 Features
 
